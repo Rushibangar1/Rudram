@@ -12,6 +12,7 @@ import com.app.service.UserService;
 
 /**
  * Controller class that handles HTTP requests related to user operations such as sending and verifying OTPs.
+ * The user is being registerd with phone number if he is a New user
  */
 @CrossOrigin
 @RestController
